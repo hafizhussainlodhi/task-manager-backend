@@ -14,7 +14,7 @@ app.use(express.json());
 
 // Purana cors hata kar yeh likh dein
 app.use(cors({
-    origin: ["http://localhost:5173", "https://task-manager-frontend-coral-three.vercel.app"],
+    origin: true,
     credentials: true
 }));
 // Auth Route
